@@ -1,0 +1,57 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url(https://media.istockphoto.com/id/1419844586/vector/stem-blue-horizontal-frame-vector-education-bright-illustration.jpg?s=612x612&w=0&k=20&c=-A1eYLYulujNsiM26lkVy7qMT_Hp82N5EtKHSFRmigk=);
+}
+button {
+  background-color: #6e60d2;
+  color: white;
+}
+.calculator {
+  width: 200px;
+  height: 240px;
+  background-color: black;
+  border-radius: 20px;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.input {
+  padding: 20px 4px;
+}
+.input > input {
+  height: 30px;
+  width: 190px;
+}
+.exp > button {
+  width: 100%;
+}
+.btn-1 > button {
+  width: 100%;
+}
+.btns {
+  display: flex;
+  text-align: center;
+  gap: 5px;
+  padding: 0px 8px;
+}
+.clear > button {
+  width: 40px;
+  height: 30px;
+  text-align: center;
+}
+.clear {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  gap: 10px;
+}
